@@ -1,4 +1,4 @@
-;;; ancient-theme.el --- A theme about ruins. -*- lexical-binding: t -*-
+;;; ancient-theme.el --- A theme about ruins -*- lexical-binding: t -*-
 
 ;; Author: Thomas Bestvina <bestvinathomas@gmail.com>
 ;; Version: 1.0.0
@@ -320,10 +320,6 @@
                                      :box (:line-width 1 :color ,bg-overlay)))))
    `(tab-bar-tab-inactive       ((t (:background ,bg-deep :foreground ,fg-muted
                                      :box (:line-width 1 :color ,bg-surface)))))
-
-   ;; Eldoc
-   `(eldoc-highlight-function-argument ((t (:foreground ,gold-hi :weight normal))))
-
    ;; Consult
    `(consult-preview-cursor     ((t (:background ,green-dim))))
    `(consult-preview-line       ((t (:background ,bg-surface))))
