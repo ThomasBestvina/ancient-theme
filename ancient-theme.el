@@ -2,7 +2,7 @@
 
 ;; Author: Thomas Bestvina <bestvinathomas@gmail.com>
 ;; Version: 1.0.0
-;; Package-Requires: ((emacs "27.1"))
+;; Package-Requires: ((emacs "29.1"))
 ;; Keywords: faces, theme
 ;; URL: https://github.com/thomasbestvina/ancient-theme
 
