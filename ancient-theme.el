@@ -1,4 +1,4 @@
-;;; ancient-theme.el --- A theme about a ruins -*- lexical-binding: t -*-
+;;; ancient-theme.el --- A theme about ruins. -*- lexical-binding: t -*-
 
 ;; Author: Thomas Bestvina <bestvinathomas@gmail.com>
 ;; Version: 1.0.0
@@ -6,7 +6,13 @@
 ;; Keywords: faces, theme
 ;; URL: https://github.com/thomasbestvina/ancient-theme
 
-(deftheme ancient "Ancient ruins, still breathing.")
+
+;;; Commentary:
+;; This theme originally started with a rice around kenshi/caves of qud vibes, but it's turned into a very usable theme I've started using for many things.
+
+;;; Code:
+
+(deftheme ancient "A theme about ruins.")
 
 (let* (;; Backgrounds
        (bg-deep    "#0e0c09")
